@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css format</title>
+    <style>
+            p{
+           color: red;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--inline-->
+    <p style="color:red;font-weight: bolder;">kongruksiam</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum corporis ratione adipisci assumenda vero ducimus cupiditate, est enim? Tempore, enim quas molestias a sed cumque ex expedita voluptates veniam sapiente!</p>
+    <h1>kongruksiam</h1>
+    <h1 class="title">css</h1>
+    <p id="massage">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio beatae veritatis distinctio recusandae quis ex minima praesentium excepturi temporibus deleniti. Cupiditate debitis optio, expedita impedit voluptate dicta cum fuga nesciunt?</p>
+</body>
+</html>
