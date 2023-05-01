@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css เบื้องต้น</title>
+    <style>
+        h1{
+            color: red;
+            font-size: 50px;
+        }
+        .title{
+            color: green;
+            font-size: 100px;
+                     
+            
+        }
+        #title{
+            color: yellow;
+        }
+        #title,.title,p{
+            font-style: italic;
+        }
+        p.message{
+            font-weight: bolder;
+        }
+       h1.message{
+        color: green;
+       }
+
+    </style>
+</head>
+<body>
+   <h1>kongruksiam</h1>
+   <h1 class="title">HTML5</h1>
+   <h1 id="title">css3</h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, modi ipsa? Quae corporis ab repudiandae beatae exercitationem doloribus facere officia. Aut velit fuga quasi architecto aperiam quos ex cupiditate? Exercitationem.</p>
+   <p class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et aliquam id deleniti sed ipsam deserunt minus obcaecati? Similique hic animi accusantium placeat quasi dolorum optio culpa doloribus recusandae voluptates?</p>
+   <h1 class="message">kongruksiamza</h1> 
+</body>
+</html>
