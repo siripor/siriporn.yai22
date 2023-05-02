@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Unit Example</title>
+    /*เป็นการกำหนดสีกำหนดตัวอักษา*/
+    <style>
+        #title{
+            color: red;
+        }
+        .message{
+            color: green;
+        }
+        h1{
+            color: blue;
+        }
+        *{
+            background-color: yellow;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>kongruksiam</h1>
+    
+    <p class="message">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi quia nostrum recusandae. Accusantium error aliquid porro quibusdam libero, esse exercitationem veniam recusandae dolor voluptatibus quod doloribus, distinctio voluptas, quis eveniet?</p>
+<hr>
+<h1>CSS3</h1>
+<p id="title">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, soluta voluptatem omnis voluptas vel eum quod eaque porro nihil quaerat deleniti sequi ducimus corporis distinctio dolores, asperiores architecto facilis totam!
+</p>
+<hr>
+<div style="border: 1px solid black;" width="500px" height="500px">
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolore omnis eveniet rerum quisquam iusto ipsum. Tempora itaque eum eos. Harum porro minima deserunt delectus inventore eos cum. Cupiditate, saepe?
+</div>
+
+</body>
+</html>
