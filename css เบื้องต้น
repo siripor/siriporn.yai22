@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS เบื้องต้น</title>
+    <style>
+
+        h1{
+            color: red;
+            font-size: 50px;
+        }
+        .title{
+            color: green;
+            font-size: 100px;
+        }
+        #title{
+            color: yellow;
+        }
+        #title,title,p{
+            font-style: italic;
+        }
+     p.message{
+        font-weight: bold;
+     }
+     h1.message{
+        color: green;
+     }
+    </style>
+</head>
+<body>
+    <h1>CSS เบื้องต้น</h1>
+    <h1 class= "title">HTML5</h1>
+   <h1 id="title">css3</h1>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum nam sed nisi iure assumenda, quos fugit odio molestias, eum impedit numquam facere ab rerum officia excepturi, repellendus atque illum maiores.</p>
+<p class="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis dolores corporis enim, autem deleniti nostrum. Labore blanditiis architecto provident nisi, mollitia molestiae reiciendis! Autem, ut ea! Quaerat accusantium maxime vitae.</p>
+  
+    <h1 class="message">kongrusiamza</h1>     
+    
+</body>
+</html>
