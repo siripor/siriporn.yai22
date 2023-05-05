@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Unit Example</title>
+    <style>
+        div{
+            background-color:green;
+            width:100%
+            max-width: 400px;
+            min-width:200px;
+            min-height:200px;
+            max-height:400px;
+
+
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        button{
+        width: auto;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <img src="https://cdn.pixabay.com/photo/2023/04/28/14/35/dog-7956828_960_720.jpg" alt="">
+    <button>ok</button>
+</body>
+</html>
