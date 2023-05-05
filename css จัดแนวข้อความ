@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css unit example</title>
+    <style>
+        .title{
+            text-decoration: underline;
+            text-align: right;
+        }
+        #title{
+            text-decoration: overline;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            text-align: center;
+        }
+        p{
+            text-align: justify;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="title">HTML</h1>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit hic beatae aut! Pariatur omnis dolor incidunt error distinctio iusto perferendis laborum illo consequuntur mollitia, quas cupiditate eos non, est dolores.</p>
+    <a href="#">click</a>
+    <hr>
+    <h1 id="title">CSS3</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga similique laborum aliquam sapiente ipsa eius. Aut soluta laboriosam, commodi reprehenderit numquam necessitatibus ut facere. Ratione, culpa? Accusantium, inventore odio! Repellat.</p>
+    <a href="#">click</a>
+    <hr>
+</body>
+</html>
