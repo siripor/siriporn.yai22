@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Unit Example</title>
+    <style>
+        li{
+            display: inline;
+           
+        }
+        li a{
+            padding-right: 20pxa;
+
+        }
+        a:link{
+            text-decoration: none;
+        }
+        .box{
+            width: 30%;
+            box-sizing: border-box;
+            display:inline-block;
+            padding: 10px;
+        }
+    </style>
+    
+</head>
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">page</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <hr>
+    <div class="box">
+        <h1>Title 1</h1>    
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam a esse iste laborum repellendus odio maxime quas. Labore sed inventore dignissimos sit ab. Sunt, harum expedita voluptatum in commodi illum.</p>      
+        
+    </div>
+    <div class="box">
+        <h1>Title 2</h1>    
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam a esse iste laborum repellendus odio maxime quas. Labore sed inventore dignissimos sit ab. Sunt, harum expedita voluptatum in commodi illum.</p>      
+        
+    </div>
+    <div class="box">
+        <h1>Title 3</h1>    
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam a esse iste laborum repellendus odio maxime quas. Labore sed inventore dignissimos sit ab. Sunt, harum expedita voluptatum in commodi illum.</p>      
+        
+    </div>
+</body>
+</html>
