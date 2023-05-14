@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+}
+.flex-container{
+  display: flex;
+  background-color: aqua;
+}
+.item{
+  background: orange;
+  border: 1px solid black;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
