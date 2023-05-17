@@ -1,0 +1,29 @@
+.grid-container{
+  display: grid;
+  /* 2 คอล์มน์ */
+  
+  /* 3 แถว */
+  grid-template: 
+  'Header Header'3fr
+  'sidebar content'10fr
+  'Footer Footer'2fr
+  /1fr 4fr;
+}
+.header-item{
+  background-color: greenyellow;
+  grid-area: Header;
+  
+}
+.content-item{
+  background-color: orange;
+  grid-area: content;
+}
+.footer-item{
+  background-color: blue;
+  grid-area: Footer;
+  
+}
+.sidebar-item{
+  background-color: black;
+  color: bisque;
+}
