@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Selector</title>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+   <form>
+    <input type="email" placeholder="e-mail">
+    <input type="text" placeholder="message">
+    <input type="submit" value="บันทึก">
+   </form>
+</body>
+</html>
