@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Selector</title>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    
+    <ul>
+        <li><p>Item 1</p></li>
+        <li><p>Item 2</p></li>
+        <li><p>Item 3</p></li>
+    </ul>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, ex! Illum obcaecati, deleniti at nesciunt quasi rem alias quam nobis recusandae voluptate itaque molestiae.</p>
+</div>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, sapiente, quod magnam molestias veritatis architecto dolorem rem animi quisquam error eum quae. Minima illo minus sunt laudantium, mollitia magnam rerum.</p>
+    
+</body>
+</html>
