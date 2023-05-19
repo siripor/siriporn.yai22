@@ -1,0 +1,28 @@
+body{
+  background-color: #333;
+  color: #fff;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+header>h1{
+  font-size: 4rem;
+  margin: 1rem;
+}
+
+header::before{
+  content: "";
+  background:url('https://cdn.pixabay.com/photo/2023/04/11/22/08/flower-7918323_640.jpg') no-repeat center center/cover;
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.3;
+}
