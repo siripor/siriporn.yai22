@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Selector</title>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+<header>
+  <h1>สวัสดี</h1>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+</header>
+  <section>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet error neque doloribus pariatur facere illum suscipit asperiores consequatur et vero rerum at repudiandae omnis autem, velit veniam corrupti debitis? Soluta.</p>
+  </section>
+
+</body>
+</html>
