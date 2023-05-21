@@ -1,0 +1,22 @@
+body{
+    background: black
+    /*ตั้งแต่นี้ไปแสดงผลไม่ขึ้น
+    /*display:flex;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;ถึงตรงนี้แต่ของอาจารย์แสดงผล*/
+
+        
+}
+.box{
+    background: orange;
+    width: 100px;
+    height: 100px;
+    /*transition: background 0.5s, width 3s ,border-radius ease-in 0.5s;*/
+    transition: all 1s ease-in 0.5s;/*ลดรูปแบบจากด้านบนให้อยู่ในบรรทัดเดียวกันโดยใช้คำสั่ง all*/
+}
+.box:hover{
+    background-color: red;
+    /*width: 300px;*/
+    border-radius: 50%;
+}
