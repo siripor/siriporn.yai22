@@ -1,10 +1,10 @@
 body{
-    background: black
-    /*ตั้งแต่นี้ไปแสดงผลไม่ขึ้น
-    /*display:flex;
+    background: black;
+   
+    display:flex;
     align-content: center;
     justify-content: center;
-    height: 100vh;ถึงตรงนี้แต่ของอาจารย์แสดงผล*/
+    height: 100vh;
 
         
 }
