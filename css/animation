@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+.box{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    animation-name: animate1;
+    animation-duration: 2s;/*เวลาที่เล่น*/
+    animation-iteration-count: infinite;
+    /*infinite เล่นไม่มีเวลาสิ้นสุด*/
+    animation-direction:alternate;
+    /*alternate เล่นย้อนหลัง*/
+    animation-timing-function: ease-in;
+
+}
+
+@keyframes animate1{
+    from{
+        width: 100px;
+    }
+    to{
+        width: 400px;
+    }
+}
