@@ -1,0 +1,23 @@
+
+//เพิ่มค่า prefix
+//console.log("ค่าเริ่มต้น = ",a);
+//console.log("แบบ frefix =",++a);
+//console.log("ค่าปัจจุบัน = ",a);
+
+//a=5;//reset
+//เพิ่มค่าแบบ postfix
+//console.log("ค่าเริ่มต้น = ",a);
+//console.log("แบบ postfix =",a++);
+//console.log("ค่าปัจจุบัน = ",a);
+
+//ลดค่าแบบ prefix
+console.log("ค่าเริ่มต้น = ",b);
+console.log("แบบ postfix =",--b);
+console.log("ค่าปัจจุบัน = ",b);
+
+
+//ลดค่าแบบ prefix
+b=10;
+console.log("ค่าเริ่มต้น = ",b);
+console.log("แบบ postfix =",b--);
+console.log("ค่าปัจจุบัน = ",b);
