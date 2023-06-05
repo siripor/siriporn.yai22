@@ -1,0 +1,17 @@
+//Array วิธีที่ 1 
+
+/*let number = Array(100,200,300,400,500,600);
+
+//index เริ่มต้นที่เลข 0 หมายถึงสมาชิกตัวแรก
+console.log(number);
+console.log("ตัวแรก = " ,number[0]);
+console.log("ตัวที่ 4 = " ,number[3]);*/
+
+////Array วิธีที่ 2
+let colors = ["แดง","ชมพู","เขียว","ขาว"];
+colors[1] = "เหลือง";//สามารถระบุสีใหม่ด้วยตำแหน่ง
+colors[2] = "ม่วง";
+console.log(colors)
+
+let days = ["วันอาทิตย์","วันจันทร์","วันอังคาร"];
+console.log(days);
