@@ -1,0 +1,21 @@
+let money = 500; //number (integer)
+let price = 99.99;//number (float)
+let message = 'kongruksiam';
+let name = "ก้องรักสยาม";
+
+let checkname = false;
+let checkProduct = true;
+
+let age = parseInt("20.15");
+
+/*console.log(typeof(money));
+console.log(typeof(price));
+console.log(typeof(message));
+console.log(typeof(name));
+
+
+console.log(checkname);
+console.log(checkProduct);
+*/
+console.log(age);
+console.log(typeof(age));
