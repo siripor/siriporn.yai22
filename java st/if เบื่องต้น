@@ -1,0 +1,8 @@
+let balance = 5000;
+let withDraw = 400;
+
+if(withDraw<=balance){
+    console.log("ดำเนินการถอนเงิน = ",withDraw);
+    balance -=withDraw;
+    console.log("ยอดคงเหลือ = ",withDraw);
+}
