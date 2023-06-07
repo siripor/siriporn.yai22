@@ -1,0 +1,11 @@
+let balance = 5000;
+let withDraw = 400;
+
+if(withDraw<=balance){
+    console.log("ดำเนินการถอนเงิน = ",withDraw);
+    balance -=withDraw;
+    console.log("ยอดคงเหลือ = ",balance);
+}else{
+    //เมื่อเงื่อนไขเป็นเท็จ
+    console.log("ยอดเงินของคุณไม่พอ");
+}
