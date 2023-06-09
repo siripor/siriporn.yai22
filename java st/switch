@@ -1,0 +1,21 @@
+let status = 0;
+
+let light;
+/*ถ้าไม่ย่อ
+if(status==0){
+    light="ปิดไฟ";
+}else if(status == 1){
+light="เปิดไฟ";
+}else{
+    light="ไม่พบข้อมูล";
+}
+*/
+//บรรทัดด้านล่างคือแบบย่อ
+switch(status){
+    case 0 : light="ปิดไฟ"
+    break;
+    case 1 : light="ปิดไฟ"
+    break;
+    default : light="ไม่พบข้อมูล";
+}
+console.log(light);
