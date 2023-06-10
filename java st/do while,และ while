@@ -1,0 +1,14 @@
+let count = 1;
+//do while จะลองทำก่อน
+//while ถ้าเป็นเท็จจะไม่การทำอะไรทั้งสิ้น
+
+/*do{
+    console.log(count);
+    
+}while(count>5);
+*/
+
+while(count<=5){
+    console.log(count);
+    count++;
+}
