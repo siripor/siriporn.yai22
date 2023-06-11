@@ -1,0 +1,22 @@
+function print(){
+    console.log("Hello World");
+}
+function message(){
+    alert("แจ้งเตือนการโอนเงิน");
+}
+function displayName(){
+    document.write("สวัสดีคะ");
+}
+function plusNumber(x){
+    console.log("เลขที่ส่งมา คือ = ",x);
+
+}
+function fullName(fname , lname){
+    console.log("ชือจริง = ",fname, "นามสกุล = ",lname);
+}
+
+function summation(x,y){
+    let totel = x+y;
+    console.log("ผลรวม = ",totel);
+}
+summation(10,50);
