@@ -1,0 +1,10 @@
+function print(){
+console.log("Hello World ");
+}
+
+function message(){
+    alert("แจ้งเตือนการโอนเงิน");
+}
+function displayName(){
+    document.write("สวัสดีคะ")
+}
