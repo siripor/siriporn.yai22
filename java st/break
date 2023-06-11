@@ -1,0 +1,7 @@
+//*forแบบปกติใส่คำว่า break จะจบการทำงานออกจากลูป
+for(let count = 1 ;count<=10;count++){
+    if(count==5)break;
+    console.log(count);
+}
+
+console.log("จบโปรแกราม");
