@@ -1,0 +1,26 @@
+function plusnumber(x){
+    console.log("เลขที่ส่งมาคือ =",x);
+}
+plusnumber(5);
+plusnumber(10);
+
+let number = 200;
+plusnumber(number)
+
+
+function FullName(fname,lname,city){
+console.log("ชื่อจริง = ",fname,"นามสกุล = ",lname,"จังหวัด = ",city);
+}
+FullName("พิชช่า","น่ารักมาก");
+FullName("ปากหมา","ใจดี");
+FullName("ใจดำ");
+
+FullName("ศิริพร","ใยเจริญ","กรุงเทพ");
+
+function summation(x,y){
+    let totel = x + y;
+    console.log("ผลรวม = ",totel);
+}
+
+summation(10,50);
+summation(500,1000);
