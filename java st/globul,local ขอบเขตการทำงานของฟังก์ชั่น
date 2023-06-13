@@ -1,0 +1,10 @@
+let a = 100;//globul
+function display(){
+    let a =50;//local ทำงานภายใน{}เท่านั้น
+    console.log("a ในฟังก์ชั่น = ",a);//แสดงผลบรรทัดนี้หลังเนื่องจากอยู่ใน local 
+    console.log("a ในฟังก์ขั่น = ",a);
+}
+
+console.log("a นอกฟังก์ชั่น = ",a);//แสดงผลบรรทัดนี้ก่อน
+console.log("a นอกฟังก์ชั่น = ",a);
+display();
