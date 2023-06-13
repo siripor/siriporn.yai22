@@ -1,0 +1,6 @@
+let colors = ["แดง","ส้ม","ฟ้า","เหลือง","ขาว"];
+
+let count = colors.length;
+
+let result = colors.sort();
+console.log(result);
