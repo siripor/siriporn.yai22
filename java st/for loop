@@ -1,0 +1,6 @@
+let colors = ["แดง","น้ำเงิน","เขียว","ขาว","ฟ้า","ชมพู่"];
+colors.push("ดำ");
+
+for(let i =0;i<colors.length;i++){
+   console.log("ลำดับที่ = ",(i+1),"มีค่า = ",colors[i])
+}
