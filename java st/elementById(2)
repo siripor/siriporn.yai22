@@ -1,0 +1,9 @@
+let a=document.getElementById('demo');//อ้างอิงข้อมูล
+
+
+function displayText(){
+    a.innerHTML="<strong>สอน javascript เบื้องต้น</strong>";//ใช้อ้างอิงข้อมูลแก้ไขให้แสดงผลตามนี้
+    //a.innerText="<strong>สอน javascript เบื้องต้น</strong>";//หากต้องการให้ข้อความ<strong> แสดงข้อมูลหน้าเว็บให้ใช้innerText
+    //a.innerHTML="<strong>สอน javascript เบื้องต้น</strong>";//หากให้คะว่า <strong> เป็นตัวหนาให้ใช้ว่าinnerHTML
+
+}
