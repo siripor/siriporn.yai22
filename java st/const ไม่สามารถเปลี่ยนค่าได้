@@ -1,0 +1,5 @@
+const a=document.querySelector('#demo');//อ้างอิงข้อมูล
+const b=document.querySelector('.myjs');
+const c=document.querySelectorAll('p');//querySelectorAll=เลือกมาทุกตัว
+//const ไม่สามารถเปลี่ยนค่าได้
+//let เปลี่ยนค่าได้ตลอดเวลา
