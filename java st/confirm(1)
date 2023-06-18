@@ -1,0 +1,10 @@
+function deleteData(){
+    let result=confirm("ต้องการลบข้อมูล");
+    if(result){
+        console.log("ลบข้อมูลเรียบร้อย");
+    }else{
+        console.log("ยกเลิกการลบข้อมูล");
+    }
+}
+
+
