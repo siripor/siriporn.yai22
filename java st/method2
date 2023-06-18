@@ -1,0 +1,26 @@
+let product = {
+    name : "เมาส์",
+    price :1500,
+    color:"black",
+    category:"computer",
+    size:"M",
+    displayproduct:function(){
+        return "ชื่อสินค้า = "+ this.name + " ราคา = "+this.price + " หมวดหมู่ = "+this.category;
+        },
+        discount:function(){
+            return this.price - 1000;
+        } ,
+        getcolor:function(){
+            return this.color;
+        }
+
+
+    };
+
+
+console.log(product.displayproduct());
+
+console.log(product. discount());
+console.log(product. getcolor());
+
+//document.write(product.displayproduct());
