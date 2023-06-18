@@ -1,0 +1,6 @@
+const menu = document.getElementById('menu');
+const item = document.getElementById('item-3');//ตัวที่ลบ
+
+function deleteItem(){
+menu.removeChild(item);
+}
