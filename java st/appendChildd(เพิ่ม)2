@@ -1,0 +1,9 @@
+const menu = document.getElementById('menu');
+let count = 1;
+
+function addItem(){
+const item = document.createElement('li');//สร้าง li ตรงนี้เลย
+item.innerText = "Item"+(count++);
+menu.appendChild(item);
+
+}
