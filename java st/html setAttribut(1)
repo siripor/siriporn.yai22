@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript เบื้องต้น</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+   <p  id="title">ทดสอบระบบ</p>
+   <p class="content">js basic</p>
+   <p>css basic</p>
+   <div class="light"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae magni, tenetur eum aspernatur dolorum fugit atque nesciunt. Tempora aliquam veniam vel cupiditate sint, placeat, eos ducimus facilis aspernatur ullam fugiat.</p></div>
+
+   <button onclick="lightMode()">โหมดกลางวัน</button>
+   <button onclick="darkMode()">โหมดกลางคืน</button>
+   <script src="app.js"></script>
+
+  
+    
+</body>
+</html>
