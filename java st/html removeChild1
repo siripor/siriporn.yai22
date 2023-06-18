@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript เบื้องต้น</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+ <ul id="menu">
+    <li id="item-1">A</li>
+    <li id="item-2">B</li>
+    <li id="item-3">C</li>
+    <li id="item-4">D</li>
+   
+ </ul>
+
+ <button onclick="deleteItem()">ลบข้อมูล</button>
+    <script src="app.js"></script>
+</body>
+</html>
