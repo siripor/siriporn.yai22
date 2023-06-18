@@ -1,0 +1,7 @@
+let a=document.querySelector('#demo');//อ้างอิงข้อมูล
+let b=document.querySelector('.myjs');
+let c=document.querySelectorAll('p');//querySelectorAll=เลือกมาทุกตัว
+
+//console.log(a);
+//console.log(b);    
+console.log(c);
