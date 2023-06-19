@@ -1,0 +1,15 @@
+const menu = document.getElementById('menu');
+const item = document.getElementById('item-3');
+const itemB = document.getElementById('item-2');
+
+const newItem = document.createElement("li");
+newItem.innerText = "x";
+
+
+function deleteItem(){
+    menu.removeChild(item);
+}
+
+function replaceItem(){
+    menu.replaceChild(newItem,itemB);
+}
