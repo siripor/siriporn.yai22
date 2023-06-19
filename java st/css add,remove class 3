@@ -1,0 +1,7 @@
+.darkMode{
+    border: 1px solid #fff;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    margin: 10px;
+}
