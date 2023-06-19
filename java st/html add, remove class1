@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript เบื้องต้น</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="box">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam beatae ea eius labore voluptates soluta deserunt. Accusantium ut, nesciunt laborum necessitatibus tempore aut blanditiis. Quidem modi id harum labore sit.</p>
+</div>
+    <button onclick="addDarkMode()">เพิ่ม style</button>
+    <button onclick="removeDarkMode()">ลบ style</button>
+    <button onclick="switchMode()">สลับ style</button>
+    <script src="app.js"></script>
+</body>
+</html>
