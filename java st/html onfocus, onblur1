@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript เบื้องต้น</Script></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <div id="box">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, consequatur dolor laborum magnam beatae reprehenderit ipsam dolore itaque voluptatibus neque exercitationem cumque facere sed voluptatem temporibus nobis dolorum sequi error.
+        </p>
+
+    </div>
+    <label for="">ชื่อของคุณ</label>
+    <input type="text" placeholder="ป้อนชื่อของคุณ" onfocus="hightlight(this)" onblur="unhightlight(this)">
+    <script src="app.js"></script>
+</body>
+</html>
