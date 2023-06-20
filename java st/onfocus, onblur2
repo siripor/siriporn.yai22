@@ -1,0 +1,11 @@
+function welcome(){
+    alert("ยินดีต้อนรับเข้าสู่เว็บของเรา");
+}
+function hightlight(obj){
+ obj.style.background="yellow";
+
+}
+function unhightlight(obj){
+    obj.style.background="black";
+   
+   }
