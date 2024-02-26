@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<style>
+    @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: rgba(32, 33, 36, 1);
+        font-family: sans-serif;
+        color: #ffff;
+        height: 100%;
+
+
+
+    }
+
+    .navbar-containar {
+        width: 100%;
+        height: 48px;
+        padding: 6px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+
+    .nav-group {
+        display: flex;
+        justify-content: space-around;
+        padding-left: 5px;
+        width: 250px;
+        align-items: center;
+
+    }
+
+
+
+
+    .nav-group a {
+
+        font-size: 13px;
+        color: #ffff;
+        font-weight: lighter;
+        display: flex;
+        align-items: center;
+
+        text-decoration: none;
+
+
+
+    }
+
+    a:hover {
+        text-decoration: underline;
+
+
+
+    }
+
+
+
+    .Phofile-photo {
+        width: 30px;
+        height: 30px;
+        border: 1px solid white;
+        border-radius: 50px;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .container,
+    .container-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        padding: 10px;
+
+    }
+
+    .pic {
+        font-size: 45px;
+        color: #ffff;
+        width: 272px;
+        height: 92px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .content1 {
+
+        width: 100%;
+        /*height: 120px;*/
+        display: flex;
+        align-items: center;
+        position: relative;
+
+    }
+
+    .pic2 {
+        position: absolute;
+        left: 10px;
+        bottom: 3px;
+        top: 15px;
+        color: #ffff;
+
+
+    }
+
+    .content1 input {
+
+        width: 582px;
+        height: 46px;
+        border-radius: 24px;
+        border-color: rgba(255, 255, 255, 0.3);
+
+        background-color: rgba(32, 33, 36, 1);
+        list-style: none;
+    }
+
+    .pic3 {
+        position: absolute;
+        top: 12px;
+        right: 30px;
+        justify-content: space-around;
+        color: rgba(255, 255, 255, 0.3);
+    }
+
+    .search {
+        width: 584px;
+        height: 58px;
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        padding-top: 18px
+    }
+
+
+    .btn1 {
+        width: 139px;
+        height: 36px;
+        margin: 11px 4px;
+        padding: 0px 16px;
+        background-color: #303134;
+        color: white;
+        border: 0.2px solid rgba(255, 255, 255, 0.3);
+        border-radius: 5px;
+    }
+
+    .btn1:hover {
+        border-color: #ffff;
+        cursor: pointer;
+    }
+
+    .btn2 {
+        width: 157px;
+        height: 36px;
+        margin: 11px 4px;
+        padding: 0px 16px;
+        background-color: #303134;
+        color: white;
+        border: 0.2px solid rgba(255, 255, 255, 0.3);
+        border-radius: 5px;
+    }
+
+    .btn2:hover {
+        border-color: #ffff;
+        cursor: pointer;
+    }
+
+    .change-language {
+        width: 100%;
+        height: 28px;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin-bottom: 24px;
+    }
+
+    .change-language1 {
+
+        width: 149px;
+        height: 28px;
+        font-size: 13px;
+        display: flex;
+        color: #bDC1C6;
+
+    }
+
+    .change-language1>a {
+        width: 48px;
+        height: 14px;
+        color: #8ad4f8;
+        text-decoration: none;
+        padding: 0px 3px;
+
+    }
+
+    .footer {
+        margin: 0;
+        width: 100%;
+        padding: 15px 30px;
+        background: #000000;
+        border-bottom: 0.3px solid rgba(255, 255, 255, 0.3);
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    .last-footer {
+
+        width: 100%;
+        height: 50px;
+        margin: 0;
+        /*padding: 0px 20px;*/
+        background: #000000;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .last-footer1 {
+        display: flex;
+        justify-content: end;
+
+
+    }
+
+    .footer1 {
+
+
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+        color: #FFFFFF;
+
+    }
+
+
+
+    .group-footer1 a {
+        color: #e8eaed;
+        text-decoration: none;
+        margin: 0;
+        padding: 15px;
+        width: 45px;
+        height: 17px;
+    }
+
+    .group-footer2 a {
+        width: 29px;
+        height: 17px;
+        padding: 15px;
+        color: #e8eaed;
+        text-decoration: none;
+    }
+
+    .group-footer3 a {
+        width: 146px;
+        height: 17px;
+        padding: 15px;
+        color: #e8eaed;
+        text-decoration: none;
+    }
+
+
+    .last-footer2 {
+        display: flex;
+        padding-left: 15px;
+
+
+
+    }
+
+    .last-footer3 a {
+        width: 90px;
+        height: 17px;
+        padding: 15px;
+        margin: 0;
+        color: #e8eaed;
+        text-decoration: none;
+
+    }
+
+    .last-footer4 a {
+        width: 58px;
+        height: 17px;
+        padding: 15px;
+        margin: 0;
+        color: #e8eaed;
+        text-decoration: none;
+
+    }
+
+    .last-footer5 a {
+
+        width: 52px;
+        height: 17px;
+        margin: 0;
+        padding: 15px;
+        color: #e8eaed;
+        text-decoration: none;
+
+    }
+
+    .footer1 a:hover {
+        text-decoration: underline;
+
+
+
+    }
+</style>
+
+<body>
+
+    <div class="navbar-containar">
+
+
+        <div class="nav-group">
+            <div>
+                <a href="#">
+                    Gmail
+                </a>
+            </div>
+            <div>
+                <a href="#">ค้นรูป</a>
+            </div>
+
+            <div>
+                <a href="#">
+                    box
+                </a>
+            </div>
+            <div class="Phofile-photo">
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="container-box">
+        <div>
+            <img class="pic" src="img/googlelogo_light_color_272x92dp.png" alt="">
+        </div>
+
+        <div class="content">
+            <div class="content1">
+                <form action="#">
+                    <label for="">
+                        <input type="text">
+                        <div>
+                            <img class="pic2" src="img/search.svg" width="20px" height="20px" style="color: aliceblue;">
+                        </div>
+                        <div class="pic3">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                class="bi bi-keyboard" viewBox="0 0 16 16">
+                                <path
+                                    d="M14 5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zM2 4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2z" />
+                                <path
+                                    d="M13 10.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25zm0-2a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25zm-5 0A.25.25 0 0 1 8.25 8h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 8 8.75zm2 0a.25.25 0 0 1 .25-.25h1.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-1.5a.25.25 0 0 1-.25-.25zm1 2a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25zm-5-2A.25.25 0 0 1 6.25 8h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 6 8.75zm-2 0A.25.25 0 0 1 4.25 8h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 4 8.75zm-2 0A.25.25 0 0 1 2.25 8h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 2 8.75zm11-2a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25zm-2 0a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25zm-2 0A.25.25 0 0 1 9.25 6h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 9 6.75zm-2 0A.25.25 0 0 1 7.25 6h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 7 6.75zm-2 0A.25.25 0 0 1 5.25 6h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 5 6.75zm-3 0A.25.25 0 0 1 2.25 6h1.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-1.5A.25.25 0 0 1 2 6.75zm0 4a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25zm2 0a.25.25 0 0 1 .25-.25h5.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-5.5a.25.25 0 0 1-.25-.25z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                class="bi bi-mic-fill" viewBox="0 0 16 16">
+                                <path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0z" />
+                                <path
+                                    d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                class="bi bi-camera" viewBox="0 0 16 16">
+                                <path
+                                    d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4z" />
+                                <path
+                                    d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5m0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0" />
+                            </svg>
+
+                        </div>
+                    </label>
+                </form>
+            </div>
+
+            <div class="search">
+                <div class="search-box1">
+
+                    <input class="btn1" type="button" value="ค้นหาด้วย Google">
+                </div>
+
+
+                <div class="search-box2">
+                    <input class="btn2" type="button" value="ดีใจจัง หาเจอแล้ว">
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="change-language">
+        <div class="change-language1">
+
+
+
+            แสดง google ใน:<a class="change1" href="#">
+                English
+
+            </a>
+
+        </div>
+    </div>
+    <div class="footer1">
+        <div class="footer">
+            ไทย
+        </div>
+        <div class="last-footer">
+            <div class="last-footer1">
+                <div class="group-footer1">
+                    <a href="#">เกี่ยวกับ</a>
+                </div>
+
+                <div class="group-footer1">
+                    <a href="">โฆษณา</a>
+                </div>
+                <div class="group-footer2">
+                    <a href="#">ธุรกิจ</a>
+                </div>
+                <div class="group-footer3">
+                    <a href="#">วิธีการทำงานของ Search</a>
+                </div>
+            </div>
+
+            <div class="last-footer2">
+                <div class="last-footer3">
+                    <a href="#">ความเป็นส่วนตัว</a>
+                </div>
+                <div class="last-footer4">
+                    <a href="#">ช้อกำหนด</a>
+                </div>
+                <div class="last-footer5">
+                    <a href="#">การตั้งค่า
+                        <!--!<select name="seting" id="seting">
+
+                            <option value="">การตั้งค่าการค้นหา</option>
+                            <option value="">การค้นหาขั้นสูง</option>
+                            <option value="">ข้อมูลของคุณใน Search</option>
+                            <option value="">ประวัติการค้นหา</option>
+                            <option value="">ความช่วยเหลือในการค้นหา</option>
+                            <option value="">ส่งความคิดเห็น</option>
+                            <option value="">ธีมมืด</option>//หาวิธีก่อนเปลี่ยนธีม
+                        </select>-->
+
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
